@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Leli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .color-box {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Color</th>
+                <th>Hexadecimal</th>
+                <th>RGB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="color-box" style="background-color: #1aa515;"></div></td>
+                <td>#000111</td>
+                <td>rgb(255, 87, 51)</td>
+            </tr>
+            <tr>
+                <td><div class="color-box" style="background-color: #33FF57;"></div></td>
+                <td>#33FF57</td>
+                <td>rgb(51, 255, 87)</td>
+            </tr>
+            <tr>
+                <td><div class="color-box" style="background-color: #3357FF;"></div></td>
+                <td>#3357FF</td>
+                <td>rgb(51, 87, 255)</td>
+            </tr>
+            <tr>
+                <td><div class="color-box" style="background-color: #F1C40F;"></div></td>
+                <td>#F1C40F</td>
+                <td>rgb(241, 196, 15)</td>
+            </tr>
+            <tr>
+                <td><div class="color-box" style="background-color: #8E44AD;"></div></td>
+                <td>#8E44AD</td>
+                <td>rgb(142, 68, 173)</td>
+            </tr>
+            <tr>
+                <td><div class="color-box" style="background-color: #16A085;"></div></td>
+                <td>#16A085</td>
+                <td>rgb(22, 160, 133)</td>
+            </tr>
+            <tr>
+                <td><div class="color-box" style="background-color: #E74C3C;"></div></td>
+                <td>#E74C3C</td>
+                <td>rgb(231, 76, 60)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
